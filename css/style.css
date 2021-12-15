@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-nav li{
+    padding: 0 30px;
+}
+
+.navbar-nav li a{
+    color: #373737;
+    font-size: 17px;
+   font-weight: 600;
+}
+.btn-nav{
+    border-radius: 11px;
+    text-align: center;
+    padding: .375rem 40px;
+    color: #373737;
+    border: 2px solid #717CFF;
+    background-color: white;
+	text-align: center;
+
+}
+.btn-nav:hover{
+    transition: 1s;
+    background-color:#717CFF ;
+    color: white;
+}
+
+.banner{
+    background-image: url('img/Oval.svg');
+}
+.banner-left h1{
+ font-size : 56px; 
+ 
+}
+.banner-left span{
+    color: #717CFF;
+}
+ p{
+    font-size: 22px;
+}
+.btn-home i{
+    margin-left: 48px ;
+}
+
+.social .fa {
+    padding: 15px;
+    font-size: 31px !important;
+    
+    text-align: center;
+    text-decoration: none;
+  }
+  .social .fa-instagram{
+     color: #FF5552;
+
+  }
+  .social .fa-facebook {
+    color: #3B5998;
+    
+  }
+ 
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+
+.btn-home{
+
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 11px;
+    padding:20px 32px;
+    color: white;
+    background-color: #717CFF;
+    border:0px;
+}
+
+#features{
+    padding: 140px;
+}
+
+#features h4{
+    padding-bottom: 82px;
+    color: #707070;
+    font-size: 23px;
+}
+
+.intro h1{
+    font-size: 37px;
+}
+
+.features-boxed .item .box{
+    box-shadow: 0px 0px 77px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+.features-boxed .item{
+   padding: 50px;
+}
+
+#cards:hover{
+    transition: 500ms ease-in-out;
+    border: 2px solid var(--bs-purple);
+    transform: scale(1.05);
+}  
+
+
+.title{
+    padding-bottom: 30px;
+    font-size: 37px;
+    font-weight: normal;
+    color: #373737;
+}
+.learn-more{
+    text-decoration: none;
+}
+
+.name{
+    font-size: 24px;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.link{
+    font-size: 17px;
+    color: #717CFF;
+}
+
+.news{
+    padding: 0 20px;
+    background-color: #FAFAFA;
+}
+
+/*     Cards      */
+.intro{
+    padding-left:146px ;
+    padding-right:146px ;
+    padding-bottom: 60px;
+}
+.img-fluid{
+    width: 100%;
+}
+.descr{
+    font-size: 22px;
+}
+
+.news{
+     padding: 146px 0px;
+}
+.news .item .box{
+    box-shadow: 0px 0px 77px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+.news .item .box .text{
+    padding: 60px 30px;
+    
+}
+
+.news .item .box i{
+    padding-right: 15px;
+}
+
+.news .buton{
+    padding-top: 145px ;
+}
+
+
+.events{
+    padding: 146px 0px;
+}
+.events .badge{
+    background-color: #EAEBF6;
+    border-radius: 11px;
+    color:#686EBC ;
+}
+.events .card{
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.05);
+    border-radius: 15px;
+}
+
+
+
+  .countries{
+    padding: 146px 0px;
+      background-color: #FAFAFA;
+  }
+
+  .countries .card-text{
+      font-size: 16px;
+  }
+
+  .countries .card{
+      border-radius: 29px;
+     background-color: rgba(255, 235, 205, 0);
+  }
+
+  .testimonial{
+    padding: 146px 0px;
+  }
+
+  .testimonial .card{
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.05);
+    border-radius: 15px;
+    border: 0px;
+  }
+  
+
+  .footer-clean{
+      background-color: #717CFF;
+      padding-top: 90px;
+      padding-bottom: 40px;
+  }
+
+  .footer .listgroup{
+      text-decoration: none;
+      padding: 0;
+  }
+
+
+  .footer col{
+      padding: 100px 0px;
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span {
+      background-color: #686EBC !important;
+  }
+
+  
+  @media    (max-width: 767.98px) {
+    
+   .intro{
+       padding: 5px;
+   }
+   .banner-right{
+    display:none;
+}
+
+  }
